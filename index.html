@@ -8,77 +8,125 @@
 	 <link rel="icon" href="talk__2__XxL_icon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="styles.css">
     <style>
-        body, html {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            font-family: "Arial", sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-            text-align: center;
-        }
-        h1 {
-            margin-top: 20px;
-            color: #0073e6;
-        }
-        hr {
-            border: 0;
-            height: 2px;
-            background: #0073e6;
-            margin: 20px 0;
-        }
-        .logo {
-            max-height: 200px;
-            margin: 20px 0;
-        }
-        p {
-            font-size: 16px;
-            margin: 20px;
-            line-height: 1.5;
-        }
-        h2 {
-            margin-top: 40px;
-            margin-bottom: 20px;
-            color: #0073e6;
-        }
-        .developers {
-            display: flex;
-            flex-wrap: nowrap;
-            overflow-x: auto;
-            justify-content: flex-start;
-            padding: 20px;
-        }
-        .developer {
-            flex: 0 0 auto;
-            width: 250px;
-            margin: 10px;
-            padding: 10px;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            text-align: left;
-        }
-        .developer img {
-            width: 100%;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
-        .developer p, .developer li {
-            margin: 5px 0;
-        }
-        .developer a {
-            color: #0073e6;
-            text-decoration: none;
-        }
-        .developer a:hover {
-            text-decoration: underline;
-        }
-        .section-title {
-            text-align: left;
-            padding-left: 20px;
-        }
+       /* styles.css */
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+    color: #004d99;
+    font-size: 2.5em;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background: #004d99;
+    margin: 30px 0;
+}
+
+.logo {
+    max-height: 150px;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 20px auto;
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #004d99;
+    font-size: 2em;
+    text-align: left;
+    padding-left: 20px;
+}
+
+h3 {
+    color: #004d99;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #004d99;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+.job-opportunities {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+}
+
+.job-opportunities h2 {
+    margin-bottom: 20px;
+}
+
+.job-opportunities p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.job-opportunities ul {
+    margin-bottom: 20px;
+}
+
+.job-opportunities a {
+    color: #004d99;
+    font-weight: bold;
+}
+
+.job-opportunities a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .job-opportunities {
+        padding: 15px;
+    }
+}
     </style>
 </head>
 <body>
@@ -86,13 +134,13 @@
     <hr>
     <!--<img class="logo" src="swift.png" alt="Logo">-->
    
-    <p>S.S is a company with skilled developers dedicated to giving you your desired website/application.</p> 
+    <p>Line Tech is a company with skilled developers dedicated to giving you your desired website/application.</p> 
     <div class="container">
 	
 		 <!-- Job Opportunities Section -->
     <div class="job-opportunities">
         <h2>Job Opportunities:</h2>
-        <p>Are you looking for a career in the tech industry? S.S (SwiftTech Solutions) is hiring!</p>
+        <p>Are you looking for a career in the tech industry? L.T.co (Line Tech.co) is hiring!</p>
         <h3>We are currently looking for:</h3>
         <ul>
             <li>Marketers</li>
